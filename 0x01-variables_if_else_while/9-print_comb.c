@@ -1,12 +1,15 @@
 #include <stdio.h>
-
-/*  main - entry point, return 0 */ 
-
+/** 
+ * main - entry point
+ *
+ * Return: always return 0
+ *
+ */
 int main(void)
 {
 	int i;
 
-	for (i = 10; i < 20; 1++)
+	for (i = 10; i < 20; i++)
 	{
 		putchar((i % 10) + '0');
 		if (i != 19)
@@ -17,5 +20,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }

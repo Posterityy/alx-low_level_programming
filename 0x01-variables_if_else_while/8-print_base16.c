@@ -6,7 +6,6 @@
  * Return: alway returns 0
  *
  */ 
-
 int main(void)
 {
 	unsigned char a = '0';
