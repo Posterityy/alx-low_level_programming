@@ -4,10 +4,9 @@
 /**
  * main - entry point
  *
- * return: returns 0
+ * Return: returns 0
  */
-int main(void)
-{
+int main(void) {
 	int n;
 	int lastnum;
 
