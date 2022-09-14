@@ -5,6 +5,8 @@
  * print_last_digit - main function
  *
  * @n: integer to get last digit of
+ *
+ * Return: always 0
  */
 int print_last_digit(int n)
 {

@@ -20,7 +20,7 @@ int main(void)
 		}
 		a = b;
 		b = c;
-		c = a+ b;
+		c = a + b;
 	}
 	printf("%d\n", counter);
 	return (0);
