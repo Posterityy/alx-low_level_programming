@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int myranr;
+	int myrand;
 	int count;
 	int total;
 
