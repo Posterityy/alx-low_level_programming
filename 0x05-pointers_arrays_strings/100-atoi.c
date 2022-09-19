@@ -20,7 +20,9 @@ int _atoi(char *s)
 {
 	unsigned int number, i;
 	int sign;
+
 	sign = 1;
+
 	number = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
@@ -34,5 +36,5 @@ int _atoi(char *s)
 		else if (s[i] == '-')
 			sign *= -1;
 	}
-	return (number *sign);
+	return (number * sign);
 }
