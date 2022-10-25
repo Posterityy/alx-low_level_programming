@@ -1,18 +1,18 @@
 #include "lists.h"
 /**
- * listint_len - return number of elements in a linkedlist
- * @h: head
- * Return: number of elements
+ * listint_len - length of linked list
+ * @h: struct to go through
+ * Return: amount of elements
  */
 size_t listint_len(const listint_t *h)
 {
-	size_t no_nodes = 0;
+	size_t count = 0;
 
-	while (h)
+	while (h != NULL)
 	{
-		no_nodes++;
+		count++;
 		h = h->next;
 	}
 
-	return (no_nodes);
+	return (count);
 }
