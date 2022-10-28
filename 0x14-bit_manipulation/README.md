@@ -1,0 +1,1 @@
+solutions on bit manipulation
